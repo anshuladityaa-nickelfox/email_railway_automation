@@ -8,7 +8,7 @@ load_dotenv()
 
 GRAPH_ENDPOINT = "https://graph.microsoft.com/v1.0"
 SCOPES = ["Mail.Read", "Mail.ReadWrite", "Mail.Send"]
-RAILWAY_URL = "https://web-production-7cf443.up.railway.app"
+RAILWAY_URL = "https://web-production-4068ce.up.railway.app"
 
 
 def get_token() -> str:
